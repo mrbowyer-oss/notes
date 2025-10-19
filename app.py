@@ -5,7 +5,7 @@ from playwright.sync_api import sync_playwright
 app = Flask(__name__)
 CORS(app)
 
-cached_note = "Note not cached yet."
+cached_note = "No notes published today."
 
 @app.route("/")
 def home():
